@@ -96,58 +96,72 @@ pub struct Figures {
 }
 
 impl Figures {
+    pub fn mini_gun(x: usize, y: usize) -> Self {
+        Self{ figures: vec![
+            Pos{ x: x + 1, y: y + 6 },
+            Pos{ x: x + 3, y: y + 6 },
+            Pos{ x: x + 3, y: y + 5 },
+            Pos{ x: x + 5, y: y + 4 },
+            Pos{ x: x + 5, y: y + 3 },
+            Pos{ x: x + 5, y: y + 2 },
+            Pos{ x: x + 7, y: y + 1 },
+            Pos{ x: x + 7, y: y + 2 },
+            Pos{ x: x + 7, y: y + 3 },
+            Pos{ x: x + 8, y: y + 2 },
+        ]}
+    }
+
     pub fn gospel_glider_gun(x: usize, y: usize) -> Self {
         Self{ figures: vec![
+            Pos{ x: x + 1, y: y + 5 },
+            Pos{ x: x + 1, y: y + 6 },
+            Pos{ x: x + 2, y: y + 5 },
+            Pos{ x: x + 2, y: y + 6 },
 
-            Pos{ x: 1, y: 5 },
-            Pos{ x: 1, y: 6 },
-            Pos{ x: 2, y: 5 },
-            Pos{ x: 2, y: 6 },
+            Pos{ x: x + 11, y: y + 5 },
+            Pos{ x: x + 11, y: y + 6 },
+            Pos{ x: x + 11, y: y + 7 },
 
-            Pos{ x: 11, y: 5 },
-            Pos{ x: 11, y: 6 },
-            Pos{ x: 11, y: 7 },
+            Pos{ x: x + 12, y: y + 4 },
+            Pos{ x: x + 12, y: y + 8 },
 
-            Pos{ x: 12, y: 4 },
-            Pos{ x: 12, y: 8 },
+            Pos{ x: x + 13, y: y + 3 },
+            Pos{ x: x + 13, y: y + 9 },
 
-            Pos{ x: 13, y: 3 },
-            Pos{ x: 13, y: 9 },
+            Pos{ x: x + 14, y: y + 3 },
+            Pos{ x: x + 14, y: y + 9 },
 
-            Pos{ x: 14, y: 3 },
-            Pos{ x: 14, y: 9 },
+            Pos{ x: x + 15, y: y + 6 },
 
-            Pos{ x: 15, y: 6 },
+            Pos{ x: x + 16, y: y + 4 },
+            Pos{ x: x + 16, y: y + 8 },
 
-            Pos{ x: 16, y: 4 },
-            Pos{ x: 16, y: 8 },
+            Pos{ x: x + 17, y: y + 5 },
+            Pos{ x: x + 17, y: y + 6 },
+            Pos{ x: x + 17, y: y + 7 },
 
-            Pos{ x: 17, y: 5 },
-            Pos{ x: 17, y: 6 },
-            Pos{ x: 17, y: 7 },
+            Pos{ x: x + 18, y: y + 6 },
 
-            Pos{ x: 18, y: 6 },
+            Pos{ x: x + 21, y: y + 3 },
+            Pos{ x: x + 21, y: y + 4 },
+            Pos{ x: x + 21, y: y + 5 },
 
-            Pos{ x: 21, y: 3 },
-            Pos{ x: 21, y: 4 },
-            Pos{ x: 21, y: 5 },
+            Pos{ x: x + 22, y: y + 3 },
+            Pos{ x: x + 22, y: y + 4 },
+            Pos{ x: x + 22, y: y + 5 },
 
-            Pos{ x: 22, y: 3 },
-            Pos{ x: 22, y: 4 },
-            Pos{ x: 22, y: 5 },
+            Pos{ x: x + 23, y: y + 2 },
+            Pos{ x: x + 23, y: y + 6 },
 
-            Pos{ x: 23, y: 2 },
-            Pos{ x: 23, y: 6 },
+            Pos{ x: x + 25, y: y + 1 },
+            Pos{ x: x + 25, y: y + 2 },
+            Pos{ x: x + 25, y: y + 6 },
+            Pos{ x: x + 25, y: y + 7 },
 
-            Pos{ x: 25, y: 1 },
-            Pos{ x: 25, y: 2 },
-            Pos{ x: 25, y: 6 },
-            Pos{ x: 25, y: 7 },
-
-            Pos{ x: 36, y: 3 },
-            Pos{ x: 36, y: 4 },
-            Pos{ x: 37, y: 3 },
-            Pos{ x: 37, y: 4 },
+            Pos{ x: x + 36, y: y + 3 },
+            Pos{ x: x + 36, y: y + 4 },
+            Pos{ x: x + 37, y: y + 3 },
+            Pos{ x: x + 37, y: y + 4 },
 
 
 
